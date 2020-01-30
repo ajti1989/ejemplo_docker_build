@@ -6,7 +6,7 @@ import socket
 app = Flask(__name__)
 redis = Redis(host="redis")
 
-
+# un comentario
 @app.route("/")
 def hello():
     try:
